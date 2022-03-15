@@ -1,0 +1,105 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-size: 16px;
+}
+img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    border-radius:1em 1em 0 0;
+    
+}
+h3,
+p{
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    padding:0 1em;
+}
+h3{
+    font-weight: 900;
+    font-size:2rem;
+}
+p{
+    font-weight: 400;
+    color:hsl(224, 23%, 55%);
+    font-size: 1em;
+    line-height:1.5em;
+}
+a{
+    font-family: 'Red Hat Display', sans-serif;
+    color:hsl(245, 75%, 52%);
+   
+}
+a:hover,
+a:focus{
+    text-decoration:none;
+}
+/** layout **/
+.container{
+    background-color:hsl(225, 100%, 94%);
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.summary{
+    width:320px;
+    margin:0 auto;
+    border-radius:1em;
+    background-color: white;
+    
+    
+}
+.item-details{
+    display:flex;
+    background-color: hsl(225, 100%, 98%);
+    justify-content: space-around;
+    align-items: center;
+    margin:0 1em;
+    border-radius:1em;
+    padding:10px 5px;
+
+}
+.plan{
+    display:flex;
+    flex-direction: column;
+}
+.item-image{
+    width:40px;
+    height:40px;
+}
+.plan-item{
+    font-weight: 400;
+    color:hsl(224, 23%, 55%);
+    font-size: 1rem;
+    margin:0;
+}
+ .submitbtn{
+    display:inline-block;
+    text-align: center;
+    padding: 10px 60px;
+    background-color:hsl(245, 75%, 52%);
+    text-decoration: none;
+    color:white;
+    border-radius: 10px;
+    margin:10px 0;
+}
+.cancelbtn{
+    text-decoration: none;
+    text-align: center;
+    color:hsl(224, 23%, 55%);
+}
+.submitbtn:hover,
+.submitbtn:focus{
+    background:#cd7df2;
+}
+.cancelbtn:hover,
+.cancelbtn:hover{
+    color:black;
+}
